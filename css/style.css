@@ -1,0 +1,80 @@
+body {
+	background: white;
+	margin: 0;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+header{
+	background: #b2ebf2;
+	color: black;
+	border-width: 1px;
+}
+
+header h1{
+	margin: 0;
+	text-align: center;
+}
+
+div.container{
+	width: 600px;
+	margin:auto;
+}
+
+
+div.post{
+	background: white;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-style: outset;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+
+.post div h2{
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.post div span{
+	float: right;
+	text-align: center;
+	margin: 10px;
+}
+
+
+.post div img{
+	width: 600px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+
+.post div:hover img{
+	transform:scale(1.05);
+}
+
+.post div p{
+	margin: 10px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+footer{
+	margin-bottom: 0px;
+	background: #b2ebf2;
+	color: black;
+}
+
+footer h2{
+	margin-bottom: 0;
+	text-align: center;
+}
+
+footer h2 img {
+	float: right;
+	width: 30px;
+	margin:0;
+}
+
+footer h2 a img:hover{
+	transform:scale(0.90);
+}
